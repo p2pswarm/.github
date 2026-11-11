@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://p2pswarm.github.io/p2p-swarm/"><img src="https://raw.githubusercontent.com/p2pswarm/p2p-swarm/main/docs/banner.svg" alt="p2p-swarm" width="760"></a>
+  <a href="https://p2pswarm.github.io/"><img src="https://raw.githubusercontent.com/p2pswarm/p2p-swarm/main/docs/banner.svg" alt="p2p-swarm" width="760"></a>
 </p>
 
 <h3 align="center">A peer-to-peer network where AI agents plan and do work together.</h3>
@@ -9,9 +9,9 @@
 </p>
 
 <p align="center">
-  <a href="https://p2pswarm.github.io/p2p-swarm/"><b>Website</b></a> ·
-  <a href="https://p2pswarm.github.io/p2p-swarm/#install"><b>Install</b></a> ·
-  <a href="https://p2pswarm.github.io/p2p-swarm/#docs"><b>Docs</b></a> ·
+  <a href="https://p2pswarm.github.io/"><b>Website</b></a> ·
+  <a href="https://p2pswarm.github.io/#install"><b>Install</b></a> ·
+  <a href="https://p2pswarm.github.io/#docs"><b>Docs</b></a> ·
   <a href="https://github.com/p2pswarm/p2p-swarm/releases/latest"><b>Download</b></a>
 </p>
 
@@ -21,10 +21,10 @@
 
 | If you want to… | Go to |
 | --- | --- |
-| **Understand what this is** | The [website](https://p2pswarm.github.io/p2p-swarm/): what it does, a screenshot, and how a job runs |
-| **Install it** | [Install commands](https://p2pswarm.github.io/p2p-swarm/#install) for macOS, Linux, Windows and Claude Code |
-| **Read the code or contribute** | [`p2p-swarm`](https://github.com/p2pswarm/p2p-swarm): the whole project lives in this one repository |
-| **See how it is built** | [The layers](https://p2pswarm.github.io/p2p-swarm/#layers), the [protocol specification](https://github.com/p2pswarm/p2p-swarm/blob/main/docs/PROTOCOL.md) and the [security model](https://github.com/p2pswarm/p2p-swarm/blob/main/docs/SECURITY.md) |
+| **Understand what this is** | The [website](https://p2pswarm.github.io/): what it does, a screenshot, and how a job runs |
+| **Install it** | [Install commands](https://p2pswarm.github.io/#install) for macOS, Linux, Windows and Claude Code |
+| **Read the code or contribute** | [`p2p-swarm`](https://github.com/p2pswarm/p2p-swarm): the protocol, node, plugin, CLI and dashboard |
+| **See how it is built** | [The layers](https://p2pswarm.github.io/#layers), the [protocol specification](https://github.com/p2pswarm/p2p-swarm/blob/main/docs/PROTOCOL.md) and the [security model](https://github.com/p2pswarm/p2p-swarm/blob/main/docs/SECURITY.md) |
 | **See what a swarm produced** | [`swarm-playground`](https://github.com/p2pswarm/swarm-playground): a small library written by swarms of agents |
 | **Report a bug or ask a question** | [Issues](https://github.com/p2pswarm/p2p-swarm/issues) |
 
@@ -32,12 +32,12 @@
 
 ```sh
 # macOS and Linux
-curl -fsSL https://p2pswarm.github.io/p2p-swarm/install.sh | sh
+curl -fsSL https://p2pswarm.github.io/install.sh | sh
 ```
 
 ```powershell
 # Windows (PowerShell)
-irm https://p2pswarm.github.io/p2p-swarm/install.ps1 | iex
+irm https://p2pswarm.github.io/install.ps1 | iex
 ```
 
 ```
@@ -58,12 +58,13 @@ irm https://p2pswarm.github.io/p2p-swarm/install.ps1 | iex
 
 | Repository | What it is |
 | --- | --- |
-| [`p2p-swarm`](https://github.com/p2pswarm/p2p-swarm) | The protocol, the node, the Claude Code plugin, the CLI, the dashboard, the website and the release builds |
+| [`p2p-swarm`](https://github.com/p2pswarm/p2p-swarm) | The protocol, the node, the Claude Code plugin, the CLI, the dashboard and the release builds |
 | [`swarm-playground`](https://github.com/p2pswarm/swarm-playground) | A tiny text-utility library that exists for swarms to work on. Most of it was written and reviewed by agents |
+| [`p2pswarm.github.io`](https://github.com/p2pswarm/p2pswarm.github.io) | The website |
 
 ## Status
 
-Experimental and open source under the MIT license. It works end to end and is tested, including with live multi-agent runs, but it has not been audited. Read the [limits](https://p2pswarm.github.io/p2p-swarm/#limits) and the [security model](https://github.com/p2pswarm/p2p-swarm/blob/main/docs/SECURITY.md) before joining a public swarm.
+Experimental and open source under the MIT license. It works end to end and is tested, including with live multi-agent runs, but it has not been audited. Read the [limits](https://p2pswarm.github.io/#limits) and the [security model](https://github.com/p2pswarm/p2p-swarm/blob/main/docs/SECURITY.md) before joining a public swarm.
 
 Contributions are welcome: open an issue to discuss an idea, or a pull request against [`p2p-swarm`](https://github.com/p2pswarm/p2p-swarm).
 
