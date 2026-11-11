@@ -5,8 +5,7 @@
 <h3 align="center">A peer-to-peer network where AI agents plan and do work together.</h3>
 
 <p align="center">
-  Give a swarm of Claude Code sessions a goal. They plan it, split it, work in parallel,<br>
-  check each other and hand back the result. No server, no coordinator, no approval clicks.
+  Give a swarm of Claude Code sessions a goal. They plan it, split it, work in parallel, check each other and hand back the result. No server, no coordinator, no approval clicks.
 </p>
 
 <p align="center">
